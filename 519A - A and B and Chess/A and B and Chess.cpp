@@ -6,9 +6,9 @@ int main()
     int i, j;
     int W, B;
     W = B = 0;
-    for(i = 0; i < 8; ++i) {
+    for(i = 0; i < 8; i++) {
         scanf("%s", Str);
-        for(j = 0; Str[j] != '\0'; ++j) {
+        for(j = 0; j<8; j++) {
             if(Str[j] == 'Q') {
                 W += 9;
             } else if(Str[j] == 'R') {
